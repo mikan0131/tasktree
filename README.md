@@ -43,7 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 npm packages
 ```
-tasktree@0.1.0 C:\Users\kotar\WebDevelop\tasktree
+tasktree@0.1.0 ~\tasktree
 ├── @chromatic-com/storybook@4.1.0
 ├── @mdx-js/mdx@3.1.0
 ├── @mdx-js/react@3.1.0
