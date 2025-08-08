@@ -38,3 +38,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+## Environment Information
+
+npm packages
+```
+tasktree@0.1.0 C:\Users\kotar\WebDevelop\tasktree
+├── @chromatic-com/storybook@4.1.0
+├── @mdx-js/mdx@3.1.0
+├── @mdx-js/react@3.1.0
+├── @mdx-js/rollup@3.1.0
+├── @storybook/addon-a11y@9.1.1
+├── @storybook/addon-docs@9.1.1
+├── @storybook/addon-vitest@9.1.1
+├── @storybook/nextjs-vite@9.1.1
+├── @types/node@20.19.9
+├── @types/react-dom@19.1.7
+├── @types/react@19.1.9
+├── @types/styled-components@5.1.34
+├── @vitest/browser@3.2.4
+├── @vitest/coverage-v8@3.2.4
+├── json-server@1.0.0-beta.3
+├── next@15.4.5
+├── playwright@1.54.2
+├── react-dom@19.1.0
+├── react@19.1.0
+├── storybook@9.1.1
+├── styled-components@6.1.19
+├── typescript@5.9.2
+└── vitest@3.2.4
+```
