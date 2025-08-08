@@ -46,7 +46,7 @@ const borderAnimation = css`
         height: 2px;
         transform-origin: center;
         transform: scaleX(0);
-        background-color: #cacaca;
+        background-color: #a3a3a3;
         transition: transform 0.3s ease;
     }
 
