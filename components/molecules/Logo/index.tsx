@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const Logo = () => {
     return (
-        <TextBox fontSize={30} color='#000000' backgroundColor="transparent" width={180}>
+        <TextBox fontSize={30} color='#000000' backgroundColor="transparent" >
             <Image 
                 src='public/tasktree-logo.png'
                 alt='TaskTree-logo'

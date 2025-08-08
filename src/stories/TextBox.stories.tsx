@@ -1,14 +1,14 @@
 import { Meta, StoryObj } from '@storybook/nextjs-vite'
-import { LinkText } from '@/components/atoms/LinkText'
+import { TextBox } from '@/components/atoms/TextBox'
 
-const meta: Meta<typeof LinkText> = {
-    title: 'tasktree/Atoms/LinkText',
-    component: LinkText,
+/**
+ * 普通のテキストボックス
+ */
+const meta: Meta<typeof TextBox> = {
+    title: 'tasktree/Atoms/TextBox',
+    component: TextBox,
     argTypes: {
         height: {
-            control: 'number'
-        },
-        width: {
             control: 'number'
         },
         margin: {
@@ -22,9 +22,6 @@ const meta: Meta<typeof LinkText> = {
         },
         backgroundColor: {
             control: 'color'
-        },
-        toLink: {
-            control: 'text'
         }
     },
     tags: ['autodocs']
@@ -32,14 +29,12 @@ const meta: Meta<typeof LinkText> = {
 
 export default meta
 
-type Story = StoryObj<typeof LinkText>
+type Story = StoryObj<typeof meta>
 
-export const Default: Story = {
+export const Primary: Story = {
     args: {
-        children: 'Google',
+        children: 'Primary',
         color: '#111111',
-        backgroundColor: 'transparent',
-        toLink: "https://google.co.jp",
-        margin: '0'
+        backgroundColor: 'transparent'
     }
 }
